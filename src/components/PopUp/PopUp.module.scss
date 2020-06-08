@@ -1,0 +1,33 @@
+.popUp{
+  width: 600px;
+  height: 250px;
+  padding: 20px;
+  background: #7a7a7a;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.inSubmit{
+  font-weight: bold;
+  border-radius: 15px;
+  height: 40px;
+  background: #404040;
+  color: #e7e7e7;
+  outline: none;
+  cursor: pointer;
+  &:visited, &:focus{
+  background: #404040;
+  color: #e7e7e7;
+  }
+  &:hover{
+    background: #d3d3d3;
+    color: #404040;
+  }
+}
+
+.description{
+
+}
